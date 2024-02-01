@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Page Title</title>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Background image -->
+    <img class="background-image" src="images/Group 5.png" alt="Background Image">
+    
+    <div class="center-content">
+      <!-- Foreground image -->
+      <img class="foreground-image" src="images/Vector (1).png" alt="Foreground Image">
+      
+      <!-- Text below images -->
+      <h1 class="hurry">HURRAY!</h1>
+      
+      <!-- Line below text -->
+      <p class =" caption">YOU WON THE GAME</p>
+      
+      <!-- Play Again button in the bottom center -->
+      <button onclick="playAgain()" class="play-again">Play Again</button>
+    </div>
+    
+    <!-- Rules button in the top right corner -->
+    <div class="button-container">
+      <button class="rules-btn">Rules</button>
+    </div>
+  </div>
+
+  <script>
+    function playAgain() {
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>
+
